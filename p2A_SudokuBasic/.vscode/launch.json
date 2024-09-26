@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/p2A_SudokuBasic/check_sudoku_board.c",   // Path to the compiled program
+            "args": ["${workspaceFolder}/p2A_SudokuBasic/board.txt"],             // Arguments for the program (e.g., input file)
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/p2A_SudokuBasic",          // Set the current working directory
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ],
+    "version": "2.0.0"
+}

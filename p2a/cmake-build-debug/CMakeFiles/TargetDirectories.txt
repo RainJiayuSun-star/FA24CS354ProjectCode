@@ -1,0 +1,3 @@
+/mnt/c/Users/rjsunLenovoUp/Documents/cs354/FA24CS354ProjectCode/p2a/cmake-build-debug/CMakeFiles/p2a.dir
+/mnt/c/Users/rjsunLenovoUp/Documents/cs354/FA24CS354ProjectCode/p2a/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/rjsunLenovoUp/Documents/cs354/FA24CS354ProjectCode/p2a/cmake-build-debug/CMakeFiles/rebuild_cache.dir
